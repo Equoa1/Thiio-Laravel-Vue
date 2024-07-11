@@ -25,7 +25,7 @@
               :error-messages="passwordError"
             />
 
-            <!-- Mostrar animación de carga si isLoading es true -->
+            
             <v-overlay :value="isLoading">
               <v-progress-circular indeterminate color="primary"></v-progress-circular>
             </v-overlay>
@@ -76,7 +76,7 @@ const login = async () => {
 
   try {
     const response = await axios.post('http://localhost:8000/api/auth/login', { email: email.value, password: password.value });
-    console.log('Login successful:', response.data);
+    
     localStorage.setItem('access_token', response.data.access_token); 
     router.push('/dashboard');
   } catch (error) {
