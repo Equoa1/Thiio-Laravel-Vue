@@ -12,7 +12,7 @@ Navigate to the AuthCrud directory:
 ```
 Install dependencies using Composer:
 ```bash
-  cd AuthCrud
+  Composer install
 ```
 Migrate the database to set up the required tables:
 ```bash
