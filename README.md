@@ -1,16 +1,16 @@
 ## Technologies
--Vue.js: JavaScript framework for building user interfaces, particularly single-page applications (SPAs).
--Axios: Promise-based HTTP client for the browser and node.js, used for making API requests.
--Vuetify: A Vue UI Library with beautifully handcrafted Material Components, designed to provide a consistent user experience across your web application.
--Laravel: PHP framework for web application development, known for its elegant syntax and robust features.
--JWT (JSON Web Tokens): A compact, URL-safe means of representing claims to be transferred between two parties, commonly used for authentication.
+- Vue.js: JavaScript framework for building user interfaces, particularly single-page applications (SPAs).
+- Axios: Promise-based HTTP client for the browser and node.js, used for making API requests.
+- Vuetify: A Vue UI Library with beautifully handcrafted Material Components, designed to provide a consistent user experience across your web application.
+- Laravel: PHP framework for web application development, known for its elegant syntax and robust features.
+- JWT (JSON Web Tokens): A compact, URL-safe means of representing claims to be transferred between two parties, commonly used for authentication.
 
 ## Application Structure
--src/: Contains the main application code.
--components/: Reusable Vue components.
--views/: Application views, representing different pages or sections of the app.
--router/: Vue Router configuration, defining the routes for the application.
--pages/: Specific pages within the application, often composed of multiple components.
+- src/: Contains the main application code.
+- components/: Reusable Vue components.
+- views/: Application views, representing different pages or sections of the app.
+- router/: Vue Router configuration, defining the routes for the application.
+- pages/: Specific pages within the application, often composed of multiple components.
 
 Navigate to the Thiivue directory:
 ```bash
